@@ -3,8 +3,8 @@
 ##############################
 ## Get Environment Variables #
 ##############################
-source ./automation/docker_getenv.sh
-source ./automation/read_config.sh
+source ./Automation/docker_getenv.sh
+source ./Automation/read_config.sh
 
 #####################
 ## Docker get login #

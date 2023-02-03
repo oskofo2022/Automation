@@ -1,6 +1,6 @@
 #!/bin/bash
 # table utils
-source ./automation/printTable.sh
+source ./Automation/printTable.sh
 # check version
 if [ -z "$VERSION" ]
       then

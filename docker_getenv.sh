@@ -11,8 +11,8 @@ fi
 #get reponame
 git_url=$(basename $(git config --get remote.origin.url))
 REPONAME=${git_url/\.git/''}
-AUTOMATION_SHORT=$(cd automation;git rev-parse --short HEAD)
-AUTOMATION_BRANCH_NAME=$(cd automation;git rev-parse --abbrev-ref HEAD)
+AUTOMATION_SHORT=$(cd Automation;git rev-parse --short HEAD)
+AUTOMATION_BRANCH_NAME=$(cd Automation;git rev-parse --abbrev-ref HEAD)
 GIT_SHORT=$(git rev-parse --short HEAD) 
 GIT_LAST_TAG=$(git tag --sort=committerdate|tail -n 1)  > /dev/null 2>&1
 #get BRANCH_NAME from  GIT
